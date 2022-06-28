@@ -32,7 +32,8 @@
     "nodejs",
     "webdevelopment",
     "portfolio",
-    "resume"
+    "resume",
+    "mongodb"
   ],
   "author": "Dogan Saglam (Dawn)",
   "license": "MIT"
