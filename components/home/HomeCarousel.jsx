@@ -53,7 +53,7 @@ const HomeCarousel = () => {
           Curious to learn something new? Or you want to shape your career
           future?
         </p>
-        <Link href="/">
+        <Link href="/courses">
           <a className="bg-lightGreen inline-block text-green text-xs md:text-sm lg:text-lg xl:text-xl px-4 py-2 rounded hover:bg-green hover:text-lightGreen">
             Get Started
           </a>

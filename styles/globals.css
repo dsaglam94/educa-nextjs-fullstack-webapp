@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap"); */
+
 :root {
   --color-green: #0eb582;
   --color-light-green: #f0fdfa;
   --color-light-gray: #777;
   --color-light-white: #eee;
   --color-light-black: #444;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #fff;
 }
 
 html::-webkit-scrollbar {

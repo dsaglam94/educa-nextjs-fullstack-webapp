@@ -32,6 +32,8 @@ const PopularCourses = () => {
               <Image
                 width="300"
                 height="300"
+                objectFit="cover"
+                layout="intrinsic"
                 src={item.image}
                 alt={item.title}
               />

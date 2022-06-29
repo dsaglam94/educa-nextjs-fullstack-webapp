@@ -10,6 +10,7 @@ const NavBanner = ({ title, page }) => {
           layout="fill"
           src="/assets/heading-bg.jpg"
           alt="navigation banner"
+          priority
         />
       </div>
       <div className="text-center space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2">

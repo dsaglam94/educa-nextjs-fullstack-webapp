@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <header className="fixed bg-lightWhite z-[20] w-full py-4 shadow-xl overflow-hidden">
+    <header className="fixed bg-white z-[20] w-full py-4 shadow-xl overflow-hidden">
       <nav className="w-[90%] md:w-[85%] xl:w-[75%] mx-auto flex items-center justify-between duration-300 ease-in">
         <div>
           <Link href="/">

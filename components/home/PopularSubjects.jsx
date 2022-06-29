@@ -14,10 +14,12 @@ const Subjects = () => {
               key={idx}
               className="bg-lightGreen text-black hover:text-lightGreen py-6 px-12 rounded border-2 border-green flex flex-col items-center gap-6 hover:bg-green cursor-pointer duration-150 ease-in"
             >
-              <div>
+              <div className="relative w-[90px] h-[90px]">
                 <Image
-                  width="100"
-                  height="100"
+                  layout="fill"
+                  objectFit="cover"
+                  width="90"
+                  height="90"
                   src={item.image}
                   alt={item.title}
                 />

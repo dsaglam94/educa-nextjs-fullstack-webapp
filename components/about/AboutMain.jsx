@@ -3,7 +3,7 @@ import aboutCoursesData from "../../aboutCoursesData";
 
 const AboutMain = () => {
   return (
-    <main className="w-[90%] md:w-[85%] xl:w-[75%] mx-auto flex items-center justify-between duration-300 ease-in my-10">
+    <main className="w-[90%] md:w-[85%] xl:w-[75%] mx-auto flex items-center justify-between duration-300 ease-in my-20">
       <div className="w-full flex flex-col md:flex-row items-center justify-center gap-10">
         <div className="relative w-full md:w-1/2 xl:w-1/3 bg-lightGreen p-10 rounded flex items-center justify-center">
           <Image
