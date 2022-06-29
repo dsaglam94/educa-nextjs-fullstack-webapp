@@ -11,7 +11,9 @@ const AccordionItem = ({ item, idx, handleToggle, selected }) => {
             : "flex items-center justify-between gap-10 p-5 bg-white cursor-pointer duration-150 ease-in"
         }
       >
-        <h3 className="font-bold text-lg whitespace-nowrap">{item.question}</h3>
+        <h3 className="font-bold text-sm sm:whitespace-nowrap md:text-lg">
+          {item.question}
+        </h3>
         <FaChevronDown
           className={
             selected === idx
