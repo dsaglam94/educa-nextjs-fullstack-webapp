@@ -13,8 +13,10 @@ const NavBanner = ({ title, page }) => {
           priority
         />
       </div>
-      <div className="text-center space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2">
-        <h1 className="font-bold text-3xl md:text-4xl">{title}</h1>
+      <div className="w-full text-center space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2 ">
+        <h1 className="font-bold text-2xl md:text-3xl duration-150 ease-in">
+          {title}
+        </h1>
         <div className="space-x-2 text-[1rem] md:text-lg">
           <Link href="/">
             <a className="hover:text-green">Home</a>
