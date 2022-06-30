@@ -18,8 +18,6 @@ const Subjects = () => {
                 <Image
                   layout="fill"
                   objectFit="cover"
-                  width="90"
-                  height="90"
                   src={item.image}
                   alt={item.title}
                 />

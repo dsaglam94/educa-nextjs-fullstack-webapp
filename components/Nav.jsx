@@ -52,15 +52,20 @@ const Nav = () => {
             className="md:hidden block text-3xl hover:text-green"
           />
         </div>
-        {/* Mobile Menu */}
         <div
           className={
             isNavOpen
-              ? "md:hidden fixed z-[15] top-0 right-0 w-full h-full bg-black/70 text-lightBlack duration-150 ease-in"
-              : "md:hidden fixed z-[15] top-0 -right-[110%] w-full h-full bg-black/70 text-lightBlack duration-150 ease-in"
+              ? "md:hidden fixed z-[15] top-0 right-0 w-full h-full bg-black/70 pointer-events-none select-none text-lightBlack duration-150 ease-in"
+              : "md:hidden fixed z-[15] top-0 right-0 w-full h-full bg-black/0 pointer-events-none select-none text-lightBlack duration-150 ease-in"
           }
         >
-          <div className="bg-white p-10 h-full w-[70%] ml-auto flex flex-col items-end justify-between">
+          <div
+            className={
+              isNavOpen
+                ? "absolute top-0 right-0 z-20 bg-white p-10 h-full w-[70%] ml-auto flex flex-col items-end justify-between pointer-events-auto duration-300 ease-in-out"
+                : "absolute top-0 -right-[110%] z-20 bg-white p-10 h-full w-[70%] ml-auto flex flex-col items-end justify-between pointer-events-auto duration-300 ease-in-out"
+            }
+          >
             <div
               onClick={handleNav}
               className="bg-green text-lightGreen p-3 rounded-full text-xl hover:text-lightGreen hover:bg-lightBlack  duration-150 ease-in cursor-pointer group"
