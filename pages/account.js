@@ -14,6 +14,7 @@ const Account = ({ session }) => {
 };
 
 export const getServerSideProps = async (context) => {
+  console.log(context);
   const session = await getSession(context);
   if (!session) {
     return {

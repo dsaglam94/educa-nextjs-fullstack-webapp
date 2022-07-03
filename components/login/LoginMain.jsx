@@ -52,7 +52,7 @@ const LoginMain = ({ providers, csrfToken }) => {
         </form>
         <div className="flex items-center justify-center gap-2 py-10">
           <div className="w-20 h-[3px] bg-green rounded"></div>
-          <h2 className="font-bold text-lg">Or login with</h2>
+          <h2 className="font-bold text-lg">or login with</h2>
           <div className="w-20 h-[3px] bg-green rounded"></div>
         </div>
         <div>

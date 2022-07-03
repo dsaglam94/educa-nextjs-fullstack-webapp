@@ -52,6 +52,7 @@ const Nav = () => {
             className="md:hidden block text-3xl hover:text-green"
           />
         </div>
+        {/* Mobile Menu */}
         <div
           className={
             isNavOpen
@@ -109,7 +110,7 @@ const Nav = () => {
             <div
               className={
                 session
-                  ? "w-full flex items-center justify-between sm:justify-end sm:gap-2"
+                  ? "w-full flex items-center justify-between sm:justify-end gap-4"
                   : null
               }
             >

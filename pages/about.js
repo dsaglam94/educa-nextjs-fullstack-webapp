@@ -4,7 +4,7 @@ import TeachersCarousel from "../components/about/TeachersCarousel";
 import Meta from "../components/Meta";
 import NavBanner from "../components/NavBanner";
 
-export default function About() {
+const About = () => {
   return (
     <>
       <Meta title={"Educa | About"} />
@@ -14,4 +14,22 @@ export default function About() {
       <StudentsReviewCarousel carouselID={2} />
     </>
   );
-}
+};
+
+// export const getServerSideProps = async (context) => {
+//   console.log(context);
+//   const session = await getSession(context);
+//   if (!session) {
+//     return {
+//       redirect: {
+//         destination: "/login",
+//       },
+//     };
+//   }
+
+//   return {
+//     props: { session },
+//   };
+// };
+
+export default About;
