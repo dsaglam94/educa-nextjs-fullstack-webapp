@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  
+  # Educa 
+  #### It's still in progress. No Live site available yet. But here is the video of current version:
+ 
+  https://user-images.githubusercontent.com/98871279/177133743-99e8f260-977c-4630-8b03-fb82fb638086.mov
 
-## Getting Started
 
-First, run the development server:
+</div>
+  
+  ### Tech stack used: 
+  - Next.js
+  - MongoDB (Mongoose)
+  - TailwindCSS
+  - NextAuth 
+  
+  ### Why this project
+  
+  It's a project where I practice my recent tech stack. It's my 100h+ full-stack solo project. I've built the same project with vanilla JavaScript and SCSS without any back-end functionality a few months ago. This one is an improved version of the same project with the same design.
+  
+ So far I implemented the authentication functionality with the help of NextAuth. 
+ - The web application will provide "Google" and "GitHub" providers to authenticate the user along with the "Custom Email" provider. 
+ - The user's information is kept in MongoDB. 
+ - The user can publish their reviews.
+ - For email authentication, only exemple@educa.com mail addresses are allowed to enter. Hence only teachers.
+ 
+ ### Todo: 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- User role-based authorization: Teacher or Student
+- Creating a separate REST API to get Courses Data
+- Creating a separate REST API to get Teachers Data
+- Adding dynamic routing for each course
+- Booking function for the lessons / students
+- Enter available slots for the lessons / teachers
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### To check the app:
+Open your terminal and:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- type `git clone https://github.com/dsaglam94/educa-nextjs-fullstack-webapp.git`
+- type `npm install` command to install dependencies
+- add `.env` file to root of the folder and necessary keys for providers and database
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![Screen Shot 2022-07-04 at 13 37 21](https://user-images.githubusercontent.com/98871279/177138178-257734a4-fd1f-494f-8815-8dec605fd124.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 
