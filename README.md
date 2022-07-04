@@ -18,6 +18,8 @@
   
   It's a project where I practice my recent tech stack. It's my 100h+ full-stack solo project. I've built the same project with vanilla JavaScript and SCSS without any back-end functionality a few months ago. This one is an improved version of the same project with the same design.
   
+  > https://github.com/dsaglam94/Education_multipage.git here is the repo of the old one.
+  
  So far I implemented the authentication functionality with the help of NextAuth. 
  - The web application will provide "Google" and "GitHub" providers to authenticate the user along with the "Custom Email" provider. 
  - The user's information is kept in MongoDB. 
